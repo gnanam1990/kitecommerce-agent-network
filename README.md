@@ -8,6 +8,12 @@ This repository is built from the staged OpenCode prompt pack in `prompts/`.
 
 Coordinate buyer agents, merchant agents, product catalogs, payment receipts, and refund workflows.
 
+## Proof of Work
+
+- Live Vercel deployment: https://kitecommerce-agent-network.vercel.app
+- Public proof report: [docs/PROOF_OF_WORK.md](docs/PROOF_OF_WORK.md)
+- Rendered screenshot: [docs/screenshot.jpg](docs/screenshot.jpg)
+
 ## Core modules
 
 - **Buyer Agent** — Agent that compares products and proposes purchases within policy.
