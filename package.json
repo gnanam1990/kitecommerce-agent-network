@@ -1,0 +1,19 @@
+{
+  "name": "kitecommerce-agent-network",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent-to-agent commerce network for buyers, merchants, services, APIs, and digital goods.",
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @kitecommerce-agent-network/api --filter @kitecommerce-agent-network/web dev",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
